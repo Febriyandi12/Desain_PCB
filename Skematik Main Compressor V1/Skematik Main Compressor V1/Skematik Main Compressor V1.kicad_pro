@@ -581,7 +581,23 @@
     ],
     [
       "06a52fea-d846-49b6-ad92-4c594d883beb",
-      "Untitled Sheet"
+      "Relay Motor"
+    ],
+    [
+      "a2921107-9561-40a9-ba91-9dc64ce9eee4",
+      "SDcard"
+    ],
+    [
+      "674a2f61-8181-4df9-b782-7b574b50d7ad",
+      "LORA"
+    ],
+    [
+      "4c793412-26aa-466b-acda-2c0eafce3a9b",
+      "RELAY"
+    ],
+    [
+      "08963d7a-f001-4823-9f1b-917b6472bf33",
+      "HUMADITY"
     ]
   ],
   "text_variables": {}
