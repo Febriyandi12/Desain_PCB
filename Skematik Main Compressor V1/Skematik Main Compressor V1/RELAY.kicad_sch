@@ -5,7 +5,7 @@
 	(uuid "147eca7a-750a-42cf-b436-81cfb08325eb")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2N5551-TA:2N5551-TA"
+		(symbol "Custom Simbol FRES:2N5551-TA"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -22,14 +22,14 @@
 				)
 			)
 			(property "Value" "2N5551-TA"
-				(at -6.35 4.318 0)
+				(at -2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Custom-Library-FRES:TO-92-Wide-Inline"
 				(at 63.5 0 0)
 				(effects
 					(font
@@ -246,207 +246,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -616,7 +415,7 @@
 				)
 			)
 		)
-		(symbol "Device:R"
+		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -625,15 +424,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -641,7 +440,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 1.016 -0.254 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -658,7 +457,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -685,12 +484,61 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -698,7 +546,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1396,16 +1244,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 60.96) (xy 185.42 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f231d59-6a4c-43b6-94b1-87f55e3f7090")
-	)
-	(wire
-		(pts
 			(xy 118.11 74.93) (xy 118.11 78.74)
 		)
 		(stroke
@@ -1516,16 +1354,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 63.5) (xy 193.04 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "973074a6-73de-477a-8d3f-682621064683")
-	)
-	(wire
-		(pts
 			(xy 139.7 100.33) (xy 139.7 97.79)
 		)
 		(stroke
@@ -1576,26 +1404,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 59.69) (xy 191.77 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c689d826-ffdc-4306-b239-5e2cc7429acd")
-	)
-	(wire
-		(pts
-			(xy 191.77 59.69) (xy 193.04 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf853062-74d4-413a-9845-283555ab862c")
-	)
-	(wire
-		(pts
 			(xy 85.09 105.41) (xy 88.9 105.41)
 		)
 		(stroke
@@ -1606,16 +1414,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 66.04) (xy 193.04 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db47db11-5172-4a79-b040-4fef0a9ea3b0")
-	)
-	(wire
-		(pts
 			(xy 74.93 110.49) (xy 74.93 105.41)
 		)
 		(stroke
@@ -1623,18 +1421,6 @@
 			(type default)
 		)
 		(uuid "f21f9a9d-c7b1-4545-978d-e0fa85cb69fd")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 193.04 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01b422f3-f789-4b04-ad98-6906a45dd2c1")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1660,18 +1446,6 @@
 		)
 		(uuid "64b86bd0-2255-41b5-b8f6-6ee2dea56e38")
 	)
-	(hierarchical_label "VOLT"
-		(shape input)
-		(at 193.04 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "72ebd90e-cd41-456e-a161-982f0197b4af")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 74.93 110.49 270)
@@ -1684,7 +1458,7 @@
 		)
 		(uuid "744ddf8f-9a82-4205-8cd7-5e9c600238d1")
 	)
-	(hierarchical_label "VOLT"
+	(hierarchical_label "VDD"
 		(shape input)
 		(at 118.11 74.93 0)
 		(fields_autoplaced yes)
@@ -1695,18 +1469,6 @@
 			(justify left)
 		)
 		(uuid "7de80c42-42aa-4ae0-a4ca-3bae239f0dd3")
-	)
-	(hierarchical_label "12V"
-		(shape input)
-		(at 193.04 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "869dc82b-cc61-48a3-9c94-9d9daec63b84")
 	)
 	(hierarchical_label "PIN D"
 		(shape input)
@@ -1731,74 +1493,6 @@
 			(justify left)
 		)
 		(uuid "fbd7c9fe-5277-4e7a-b0ea-757e44214312")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 81.28 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a1c2f90-963b-42ae-a336-43b0bca25dda")
-		(property "Reference" "R11"
-			(at 81.28 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 81.28 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 81.28 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 81.28 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61319258-589f-4d6a-baf4-4df207cc39cf")
-		)
-		(pin "2"
-			(uuid "dcbe67cb-90c0-4848-84e1-e8a32645952a")
-		)
-		(instances
-			(project "Skematik Main Compressor V1"
-				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/4c793412-26aa-466b-acda-2c0eafce3a9b"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
@@ -1857,22 +1551,26 @@
 			)
 		)
 		(pin "2"
-			(uuid "3a2a499d-f35d-4c25-95cb-9064beee4300")
+			(uuid "37b96dca-3460-4126-be05-ab66a2349b4e")
 		)
 		(pin "1"
-			(uuid "c4ae6b5f-e593-49bf-b753-835930dbf2a5")
+			(uuid "c04396a8-33b8-46cb-89aa-f0e300fe03fc")
 		)
 		(pin "3"
-			(uuid "50299c1e-cc41-4bff-867a-96c2255733bf")
+			(uuid "adeb0ef7-209e-4108-9313-1f786d667edd")
 		)
 		(pin "4"
-			(uuid "0d576b19-1468-4924-a37f-0d2259bf9071")
+			(uuid "8132a221-3187-405b-9d56-df62f8f1a08b")
 		)
 		(pin "5"
-			(uuid "bf095d32-4baa-4984-8143-b1b7799fb96c")
+			(uuid "b3f2541d-2a16-4033-88e3-d6485172778a")
 		)
 		(instances
 			(project "Skematik Main Compressor V1"
+				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/461449bc-6630-4ddb-8246-b2b959924c81"
+					(reference "K4")
+					(unit 1)
+				)
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/4c793412-26aa-466b-acda-2c0eafce3a9b"
 					(reference "K2")
 					(unit 1)
@@ -1881,33 +1579,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 113.03 105.41 90)
+		(lib_id "Device:R_US")
+		(at 81.28 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e32b5e1-22ef-4bc3-844a-75441d27409a")
-		(property "Reference" "R12"
-			(at 113.03 99.06 90)
+		(uuid "70f2ab14-9747-4db6-9a5c-6451be9768fe")
+		(property "Reference" "R11"
+			(at 81.28 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 113.03 101.6 90)
+		(property "Value" "1K"
+			(at 81.28 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 113.03 107.188 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 81.534 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +1614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 105.41 0)
+			(at 81.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,8 +1622,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 113.03 105.41 0)
+		(property "Description" "Resistor, US symbol"
+			(at 81.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,22 +1632,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "e081ed4f-ca5d-46fb-adb2-de76600b7a2b")
+			(uuid "314e0a0a-da6f-4155-b613-3c9f874f7f4b")
 		)
 		(pin "2"
-			(uuid "9ea552de-a170-46d4-a69f-34599fb1a2a3")
+			(uuid "483ad648-4594-41ea-b4fa-915913c54d0b")
 		)
 		(instances
 			(project "Skematik Main Compressor V1"
+				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/461449bc-6630-4ddb-8246-b2b959924c81"
+					(reference "R17")
+					(unit 1)
+				)
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/4c793412-26aa-466b-acda-2c0eafce3a9b"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "2N5551-TA:2N5551-TA")
+		(lib_id "Custom Simbol FRES:2N5551-TA")
 		(at 127 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1957,8 +1659,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4bf75787-3e0a-4bb5-aee2-8545f260b616")
-		(property "Reference" "Q2"
+		(uuid "862f1162-e673-4a75-887b-deba4488b333")
+		(property "Reference" "Q7"
 			(at 132.08 104.1399 0)
 			(effects
 				(font
@@ -1976,7 +1678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom-Library-FRES:TO-92-Wide-Inline"
 			(at 190.5 105.41 0)
 			(effects
 				(font
@@ -2030,52 +1732,56 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "7e7f1361-a18d-41bb-a1a2-f5f7456c6fcc")
+		(pin "3"
+			(uuid "b1e8464f-5c43-4fc3-a376-1669d704ef12")
 		)
 		(pin "2"
-			(uuid "7df18596-1876-47bd-88ad-8bf42352c577")
+			(uuid "45f7ef15-d8cb-41ad-bf34-ebeb2307041c")
 		)
-		(pin "3"
-			(uuid "ced004e5-4fa9-4ece-a895-1a85c7a44fd5")
+		(pin "1"
+			(uuid "d9a8d5a3-d1a5-4f8b-84bb-3a97a1f93e43")
 		)
 		(instances
-			(project "Skematik Main Compressor V1"
+			(project ""
+				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/461449bc-6630-4ddb-8246-b2b959924c81"
+					(reference "Q7")
+					(unit 1)
+				)
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/4c793412-26aa-466b-acda-2c0eafce3a9b"
-					(reference "Q2")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 180.34 63.5 0)
+		(lib_id "Device:R_US")
+		(at 113.03 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7d88ecd0-7c1a-4ad4-baaf-da483340d40a")
-		(property "Reference" "J5"
-			(at 180.975 55.88 0)
+		(uuid "c8fe98d1-f523-47c8-ac52-53414090d7ca")
+		(property "Reference" "R12"
+			(at 113.03 99.695 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 180.975 58.42 0)
+		(property "Value" "510"
+			(at 113.03 102.235 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 180.34 63.5 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 113.284 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +1790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 63.5 0)
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,28 +1798,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 180.34 63.5 0)
+		(property "Description" "Resistor, US symbol"
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "46d4ed16-095a-41f5-b64c-f8af41212726")
 		)
 		(pin "1"
-			(uuid "6da8f915-b7a8-41f8-9127-61c95c1f4a0d")
+			(uuid "4b4c7221-38fe-43ec-a144-c0dc8fa90247")
 		)
 		(pin "2"
-			(uuid "8f70ef68-8628-4c7d-80dc-73d733f9dbb5")
+			(uuid "fdbe293b-68ab-49ad-921a-53426d11315c")
 		)
 		(instances
 			(project "Skematik Main Compressor V1"
+				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/461449bc-6630-4ddb-8246-b2b959924c81"
+					(reference "R29")
+					(unit 1)
+				)
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/4c793412-26aa-466b-acda-2c0eafce3a9b"
-					(reference "J5")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2127,10 +1834,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ebb534f1-7efd-4700-b245-a3c6ae3eb4cf")
 		(property "Reference" "D2"
-			(at 79.6925 99.06 0)
+			(at 81.28 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,7 +1844,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 79.6925 101.6 0)
+			(at 81.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,13 +1879,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "4bd98ad1-b0f2-457e-b700-36b2c4430d1d")
+			(uuid "c17c2d21-7a1e-485d-8579-02ce9ad493b0")
 		)
 		(pin "1"
-			(uuid "2ea9ae75-ec7a-425c-8013-eef9f8579c48")
+			(uuid "01666255-acdb-4b97-98c0-3148036e832f")
 		)
 		(instances
 			(project "Skematik Main Compressor V1"
+				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/461449bc-6630-4ddb-8246-b2b959924c81"
+					(reference "D5")
+					(unit 1)
+				)
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/4c793412-26aa-466b-acda-2c0eafce3a9b"
 					(reference "D2")
 					(unit 1)
@@ -2244,19 +1954,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "4526637b-a8de-4b2b-bf7e-6c669df9d612")
+			(uuid "9ec528c4-41c8-4a64-bbee-fa496e4dae67")
 		)
 		(pin "3"
-			(uuid "6ec5a33b-851a-48af-a438-062d8db9e765")
+			(uuid "a256bbd6-22b0-4d9e-b44b-0460ffb93fb4")
 		)
 		(pin "1"
-			(uuid "ae457140-f815-4e19-a8ea-47d7d411cbd2")
+			(uuid "c5973c24-0709-4cc2-872a-bb057d84ab3f")
 		)
 		(pin "4"
-			(uuid "d3a7e8a7-346e-4f16-b3fd-b0535c988174")
+			(uuid "bad995da-b50d-4de3-b715-df5adf51c0ac")
 		)
 		(instances
 			(project "Skematik Main Compressor V1"
+				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/461449bc-6630-4ddb-8246-b2b959924c81"
+					(reference "U11")
+					(unit 1)
+				)
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/4c793412-26aa-466b-acda-2c0eafce3a9b"
 					(reference "U4")
 					(unit 1)

@@ -141,7 +141,7 @@
 				)
 			)
 		)
-		(symbol "Device:R"
+		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -150,15 +150,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -166,7 +166,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 1.016 -0.254 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -183,7 +183,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -210,12 +210,61 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -223,7 +272,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -835,12 +884,6 @@
 		(uuid "0733365d-50dd-41ad-905c-d716f186311c")
 	)
 	(junction
-		(at 156.21 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "154d5056-f0b9-444a-aaab-fe7d256e098f")
-	)
-	(junction
 		(at 91.44 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -853,10 +896,10 @@
 		(uuid "353a2968-4c08-4016-8376-bbf1cc8fe74c")
 	)
 	(junction
-		(at 160.02 88.9)
+		(at 163.83 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "58cf915b-4992-494a-8228-1bcda6af1ffe")
+		(uuid "3c14c30f-4d25-494e-87d1-a3e542c8bc97")
 	)
 	(junction
 		(at 148.59 101.6)
@@ -865,10 +908,10 @@
 		(uuid "60bc4190-5847-4d8e-86a8-8183d7c94594")
 	)
 	(junction
-		(at 163.83 88.9)
+		(at 160.02 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "620051c1-0dec-44d6-a8c8-4fbc14be1917")
+		(uuid "62cdad99-388e-4c2b-be74-3a53e85a6746")
 	)
 	(junction
 		(at 128.27 106.68)
@@ -893,6 +936,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9adcda06-5006-480a-b1f1-a6bead6497d6")
+	)
+	(junction
+		(at 156.21 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d31a4fa-77cb-48a3-9797-1d280fd03d48")
 	)
 	(junction
 		(at 91.44 106.68)
@@ -976,6 +1025,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 88.9) (xy 160.02 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce88f30-8e02-4bca-aa34-1622bfd66161")
+	)
+	(wire
+		(pts
 			(xy 193.04 109.22) (xy 171.45 109.22)
 		)
 		(stroke
@@ -993,16 +1052,6 @@
 			(type default)
 		)
 		(uuid "1f434a6b-bc6e-477b-a6d2-7a1eebe3ac18")
-	)
-	(wire
-		(pts
-			(xy 160.02 88.9) (xy 163.83 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2300e6f7-a62f-450d-9ca0-98e12dac05d5")
 	)
 	(wire
 		(pts
@@ -1066,13 +1115,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 156.21 88.9)
+			(xy 148.59 88.9) (xy 156.21 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54906a0a-865e-4a01-bb1b-4050ceee6d5f")
+		(uuid "55324efe-84d4-4dda-a6a8-2e2edb454eb0")
 	)
 	(wire
 		(pts
@@ -1083,16 +1132,6 @@
 			(type default)
 		)
 		(uuid "5cdf37ff-940f-4ef4-adae-761f12ff83f3")
-	)
-	(wire
-		(pts
-			(xy 163.83 88.9) (xy 171.45 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "626c7449-b839-4436-b609-77a62cbdcf5f")
 	)
 	(wire
 		(pts
@@ -1236,6 +1275,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 88.9) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af153f90-8c0c-42d0-9760-380114068b67")
+	)
+	(wire
+		(pts
 			(xy 179.07 114.3) (xy 179.07 111.76)
 		)
 		(stroke
@@ -1263,16 +1312,6 @@
 			(type default)
 		)
 		(uuid "be1ef0b4-d49e-4a0b-b160-baf6d19891b5")
-	)
-	(wire
-		(pts
-			(xy 156.21 88.9) (xy 148.59 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c64dddf1-9749-4460-b9dd-918a21020811")
 	)
 	(wire
 		(pts
@@ -1366,6 +1405,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 88.9) (xy 163.83 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f568fdee-6c9c-4ac8-be4d-d637ee7b909e")
+	)
+	(wire
+		(pts
 			(xy 91.44 109.22) (xy 91.44 106.68)
 		)
 		(stroke
@@ -1396,7 +1445,7 @@
 		)
 		(uuid "2988793a-8ee5-435f-938d-962325fd8921")
 	)
-	(hierarchical_label "CS"
+	(hierarchical_label "CD"
 		(shape input)
 		(at 193.04 101.6 0)
 		(fields_autoplaced yes)
@@ -1432,7 +1481,7 @@
 		)
 		(uuid "a093cae5-f3e0-4829-b8b9-3bbcaa421883")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "3.3V"
 		(shape input)
 		(at 193.04 99.06 0)
 		(fields_autoplaced yes)
@@ -1455,76 +1504,6 @@
 			(justify left)
 		)
 		(uuid "f157f189-6159-4ccc-84c7-9efb0968c20d")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 163.83 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06b392ef-76f8-46f9-9abe-64a053d40efc")
-		(property "Reference" "R5"
-			(at 166.37 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 166.37 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 162.052 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "becb7e9a-8dfc-4162-bb52-1992ba8f53a1")
-		)
-		(pin "2"
-			(uuid "98113f05-559c-487a-87a2-9e2aa85b9941")
-		)
-		(instances
-			(project "Skematik Main Compressor V1"
-				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/a2921107-9561-40a9-ba91-9dc64ce9eee4"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1663,76 +1642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 156.21 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "245842bd-2d60-4706-84b1-e4ef0bf9f6f7")
-		(property "Reference" "R4"
-			(at 158.75 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 158.75 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 154.432 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38384227-d3dd-4feb-9c77-e759a6ff3963")
-		)
-		(pin "2"
-			(uuid "eb985053-5b96-4cdf-8830-20ba86128e77")
-		)
-		(instances
-			(project "Skematik Main Compressor V1"
-				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/a2921107-9561-40a9-ba91-9dc64ce9eee4"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 160.02 80.01 0)
 		(unit 1)
@@ -1793,76 +1702,6 @@
 			(project "Skematik Main Compressor V1"
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/a2921107-9561-40a9-ba91-9dc64ce9eee4"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "391d9b11-2426-4df0-92c3-be93dae6b1cf")
-		(property "Reference" "R3"
-			(at 151.13 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 151.13 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 146.812 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c6cedff-aba4-40b7-97d8-9d0d25560f95")
-		)
-		(pin "2"
-			(uuid "129f7651-8a4c-469e-85d1-fe953357d7fd")
-		)
-		(instances
-			(project "Skematik Main Compressor V1"
-				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/a2921107-9561-40a9-ba91-9dc64ce9eee4"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2001,35 +1840,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 171.45 92.71 0)
+		(lib_id "Device:R_US")
+		(at 171.45 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "626bbe49-23fd-4d3a-a203-709664126411")
+		(uuid "5791cc6c-5c35-4e0a-b304-645977a470c6")
 		(property "Reference" "R6"
-			(at 173.99 91.4399 0)
+			(at 173.355 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 173.99 93.9799 0)
+		(property "Value" "10K"
+			(at 173.355 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 169.672 92.71 90)
+			(at 170.434 92.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +1885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 171.45 92.71 0)
 			(effects
 				(font
@@ -2056,10 +1895,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "052c78e6-5159-4bef-b4a8-4a45a40caaa5")
+			(uuid "c0fc3bc2-a5f2-4366-bebe-4e9df4b5000d")
 		)
 		(pin "2"
-			(uuid "209e7165-192a-4142-b1b2-36d4def58e93")
+			(uuid "aad76686-028f-43ae-bd92-ee7b354eed5a")
 		)
 		(instances
 			(project "Skematik Main Compressor V1"
@@ -2135,6 +1974,76 @@
 			(project "Skematik Main Compressor V1"
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/a2921107-9561-40a9-ba91-9dc64ce9eee4"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d8673bb-9c1a-42dd-a3cd-8e99072d4917")
+		(property "Reference" "R5"
+			(at 165.735 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 165.735 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 162.814 92.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1fe7c3c-eef0-41ad-9b70-485e141e3363")
+		)
+		(pin "2"
+			(uuid "6dfa1e3f-613e-462d-a640-25580c6c9c65")
+		)
+		(instances
+			(project "Skematik Main Compressor V1"
+				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/a2921107-9561-40a9-ba91-9dc64ce9eee4"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2294,6 +2203,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 156.21 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ad51019-9a9e-40ea-b084-052e9b573caa")
+		(property "Reference" "R4"
+			(at 158.115 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 158.115 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 155.194 92.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "022bcd93-dd03-4b63-87de-eb8c7d783a41")
+		)
+		(pin "2"
+			(uuid "ef52bb02-6de7-48c2-9907-a05f41451fa7")
+		)
+		(instances
+			(project "Skematik Main Compressor V1"
+				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/a2921107-9561-40a9-ba91-9dc64ce9eee4"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 133.35 0)
 		(unit 1)
@@ -2354,6 +2333,76 @@
 			(project "Skematik Main Compressor V1"
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/a2921107-9561-40a9-ba91-9dc64ce9eee4"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 148.59 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8c1ec03-e899-42e3-a15d-a5bbdb6b0dcf")
+		(property "Reference" "R3"
+			(at 150.495 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 150.495 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 149.606 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d1e011d-4506-4060-9253-34c2965d052d")
+		)
+		(pin "2"
+			(uuid "0abf49b3-7715-4d87-9c3b-ec1d6ed61491")
+		)
+		(instances
+			(project "Skematik Main Compressor V1"
+				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/a2921107-9561-40a9-ba91-9dc64ce9eee4"
+					(reference "R3")
 					(unit 1)
 				)
 			)

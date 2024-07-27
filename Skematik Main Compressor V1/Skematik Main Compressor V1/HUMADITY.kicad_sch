@@ -519,6 +519,10 @@
 		(uuid "edef10b7-3980-41f4-bf87-0b4a375d7781")
 	)
 	(no_connect
+		(at 148.59 104.14)
+		(uuid "36615134-27fc-4df4-a0d7-7e8a692a1f72")
+	)
+	(no_connect
 		(at 148.59 106.68)
 		(uuid "b2175a70-c4b7-4729-aa78-80ea489afc18")
 	)
@@ -531,16 +535,6 @@
 			(type default)
 		)
 		(uuid "03481abe-589b-41ce-9236-857b79daff3c")
-	)
-	(wire
-		(pts
-			(xy 137.16 104.14) (xy 148.59 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e63c1db-5856-45d9-8896-e54ef93e8e2b")
 	)
 	(wire
 		(pts
@@ -644,7 +638,7 @@
 		)
 		(uuid "14a3bcdf-cd07-42bd-b63b-04d51b07fef1")
 	)
-	(hierarchical_label "VCC"
+	(hierarchical_label "3.3V"
 		(shape input)
 		(at 137.16 93.98 180)
 		(fields_autoplaced yes)
@@ -655,18 +649,6 @@
 			(justify right)
 		)
 		(uuid "75d9b492-7ffe-4816-9297-687ec87b035c")
-	)
-	(hierarchical_label "INT"
-		(shape input)
-		(at 137.16 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "94d8c012-c142-4ce1-9746-5cc2cebc303e")
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
@@ -875,7 +857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06_Socket"
+		(property "Value" "SHT31"
 			(at 154.94 101.5999 0)
 			(effects
 				(font

@@ -428,7 +428,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Custom Simbol FRES"
+    ]
   },
   "meta": {
     "filename": "Skematik Main Compressor V1.kicad_pro",
@@ -581,7 +583,7 @@
     ],
     [
       "06a52fea-d846-49b6-ad92-4c594d883beb",
-      "Relay Motor"
+      "Relay Motor1"
     ],
     [
       "a2921107-9561-40a9-ba91-9dc64ce9eee4",
@@ -598,6 +600,42 @@
     [
       "08963d7a-f001-4823-9f1b-917b6472bf33",
       "HUMADITY"
+    ],
+    [
+      "0518a0e9-5444-46f6-a07c-9622ac3fc92e",
+      "Preasure & CO"
+    ],
+    [
+      "2b38de0e-bd0d-434a-a448-548fbf8887af",
+      "Regulator DC"
+    ],
+    [
+      "71c25820-6749-41c5-9e93-e0d91d28a35c",
+      "rtc"
+    ],
+    [
+      "a03b1835-0aa7-404c-9a94-3d42e7313625",
+      "Fram"
+    ],
+    [
+      "f98029da-54d9-47f8-8fa2-3adf788f197a",
+      "LCD"
+    ],
+    [
+      "598677f1-cce5-4e03-92bf-3e0adce8df94",
+      "Relay Motor2"
+    ],
+    [
+      "461449bc-6630-4ddb-8246-b2b959924c81",
+      "RELAY2"
+    ],
+    [
+      "9a0306e6-c954-4776-b31d-a85178c325a7",
+      "Buzzer"
+    ],
+    [
+      "d5cec503-18ed-4cb8-b6f2-cab44f49fcf4",
+      "AC Trip"
     ]
   ],
   "text_variables": {}

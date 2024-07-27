@@ -617,7 +617,7 @@
 		)
 		(uuid "6f55d6b7-7f08-4bd1-920e-a1b39ec14df7")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "3.3V"
 		(shape input)
 		(at 156.21 85.09 0)
 		(fields_autoplaced yes)
