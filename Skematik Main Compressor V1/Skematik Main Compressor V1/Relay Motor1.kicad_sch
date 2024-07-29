@@ -5,7 +5,7 @@
 	(uuid "644b5ee3-1620-438c-9477-df3a5987f2e2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2N5551-TA:2N5551-TA"
+		(symbol "Custom Simbol FRES:2N5551-TA"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -22,14 +22,14 @@
 				)
 			)
 			(property "Value" "2N5551-TA"
-				(at -6.35 4.318 0)
+				(at -2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Custom-Library-FRES:TO-92-Wide-Inline"
 				(at 63.5 0 0)
 				(effects
 					(font
@@ -1583,110 +1583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2N5551-TA:2N5551-TA")
-		(at 133.35 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37167f92-a6bb-48ed-ba53-86d6ea23f0af")
-		(property "Reference" "Q1"
-			(at 138.43 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N5551-TA"
-			(at 138.43 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 196.85 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 133.35 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 133.35 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 133.35 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 133.35 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "025e8373-3cbd-4a76-b126-744aeac1653f")
-		)
-		(pin "2"
-			(uuid "72d4ad07-10b4-4665-9d4a-bd2cff2a6673")
-		)
-		(pin "3"
-			(uuid "b9116174-fd8a-4257-8b3a-2f8d76d7fd01")
-		)
-		(instances
-			(project "Skematik Main Compressor V1"
-				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/06a52fea-d846-49b6-ad92-4c594d883beb"
-					(reference "Q1")
-					(unit 1)
-				)
-				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/598677f1-cce5-4e03-92bf-3e0adce8df94"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
 		(at 151.13 97.79 0)
 		(unit 1)
@@ -1907,6 +1803,110 @@
 				)
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/598677f1-cce5-4e03-92bf-3e0adce8df94"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom Simbol FRES:2N5551-TA")
+		(at 133.35 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b82b185b-7abc-40e4-bf99-d24afd270cc6")
+		(property "Reference" "Q1"
+			(at 138.43 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N5551-TA"
+			(at 138.43 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84005dd0-4699-4dac-958a-c614d3327ae4")
+		)
+		(pin "3"
+			(uuid "ddd92919-1c28-4713-8a6f-049c8eb00931")
+		)
+		(pin "1"
+			(uuid "eef4dead-da03-426c-bd55-2d2cda624ed0")
+		)
+		(instances
+			(project ""
+				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/06a52fea-d846-49b6-ad92-4c594d883beb"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/598677f1-cce5-4e03-92bf-3e0adce8df94"
+					(reference "Q2")
 					(unit 1)
 				)
 			)

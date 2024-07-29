@@ -1659,8 +1659,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "862f1162-e673-4a75-887b-deba4488b333")
-		(property "Reference" "Q7"
+		(uuid "98a039de-c53b-48e9-b7a2-36e5e09c9a4c")
+		(property "Reference" "Q3"
 			(at 132.08 104.1399 0)
 			(effects
 				(font
@@ -1678,7 +1678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom-Library-FRES:TO-92-Wide-Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 190.5 105.41 0)
 			(effects
 				(font
@@ -1732,23 +1732,23 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "b1e8464f-5c43-4fc3-a376-1669d704ef12")
-		)
 		(pin "2"
-			(uuid "45f7ef15-d8cb-41ad-bf34-ebeb2307041c")
+			(uuid "55a0a911-b661-4917-87ed-b4ca46fa12ac")
+		)
+		(pin "3"
+			(uuid "82222981-1e89-47df-8519-cbaa0848cf49")
 		)
 		(pin "1"
-			(uuid "d9a8d5a3-d1a5-4f8b-84bb-3a97a1f93e43")
+			(uuid "07023e87-cbab-46a5-b4ed-51d21660ce0f")
 		)
 		(instances
-			(project ""
+			(project "Skematik Main Compressor V1"
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/461449bc-6630-4ddb-8246-b2b959924c81"
-					(reference "Q7")
+					(reference "Q4")
 					(unit 1)
 				)
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/4c793412-26aa-466b-acda-2c0eafce3a9b"
-					(reference "Q6")
+					(reference "Q3")
 					(unit 1)
 				)
 			)

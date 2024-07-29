@@ -5,27 +5,49 @@
 	(uuid "c71211eb-d046-4712-b05f-e5634d4639dd")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Custom Simbol FRES:Battery_Cell_CR1220"
+		(symbol "CR1220MFR_FH:CR1220MFR_FH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BAT?"
-				(at -4.318 2.54 0)
+			(property "Reference" "BT"
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "CR1220MFR_FH"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Custom-Library-FRES:1056TR"
+			(property "Footprint" "CR1220MFRFH"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.renatabatteries.us/sites/default/files/2018-01/CR1220MFR-FH.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Coin Cell Battery 3V2-PINHORZ40mAh"
 				(at 0 0 0)
 				(effects
 					(font
@@ -34,100 +56,71 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "2.95"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Mouser Part Number" "614-CR1220MFR-FH"
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "Battery_Cell_CR1220_0_1"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Renata/CR1220MFR-FH?qs=PuikTf%252BlMsxvBg0JpoIdQQ%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "RENATA"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CR1220MFR FH"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CR1220MFR_FH_1_1"
 				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 -0.254)
-					(end 1.524 -0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 1.778 1.778)
-					)
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 2.286) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_CR1220_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
+					(at 0 -2.54 0)
+					(length 5.08)
 					(name "+"
 						(effects
 							(font
@@ -144,8 +137,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
+					(at 0 0 0)
+					(length 5.08)
 					(name "-"
 						(effects
 							(font
@@ -893,6 +886,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 85.09) (xy 175.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9bf442-fc81-4b1e-9d36-4a9f593bc6fa")
+	)
+	(wire
+		(pts
 			(xy 118.11 102.87) (xy 121.92 102.87)
 		)
 		(stroke
@@ -900,6 +903,16 @@
 			(type default)
 		)
 		(uuid "16f97275-d013-432b-8890-cb203697f192")
+	)
+	(wire
+		(pts
+			(xy 163.83 86.995) (xy 163.83 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193ded1e-b419-4287-83b3-f31c22c8180d")
 	)
 	(wire
 		(pts
@@ -923,7 +936,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 92.71) (xy 163.83 96.52)
+			(xy 163.83 94.615) (xy 163.83 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1013,7 +1026,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 92.71) (xy 175.26 96.52)
+			(xy 175.26 90.17) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1231,7 +1244,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 88.9 0)
+		(at 163.83 90.805 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1239,7 +1252,7 @@
 		(dnp no)
 		(uuid "8a112c2b-895e-4a81-8035-f5d5168cc777")
 		(property "Reference" "C12"
-			(at 166.37 87.63 0)
+			(at 166.37 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1261,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 166.37 90.17 0)
+			(at 166.37 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1270,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 164.7952 92.71 0)
+			(at 164.7952 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1279,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 88.9 0)
+			(at 163.83 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1288,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 163.83 88.9 0)
+			(at 163.83 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,17 +1382,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom Simbol FRES:Battery_Cell_CR1220")
-		(at 175.26 88.9 0)
+		(lib_id "CR1220MFR_FH:CR1220MFR_FH")
+		(at 175.26 90.17 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99b4be4e-2e9a-44c6-aee1-87930489264c")
-		(property "Reference" "BAT1"
-			(at 179.07 87.6934 0)
+		(uuid "b0a6a96e-c94c-40a1-bad0-7864e92eb023")
+		(property "Reference" "BT1"
+			(at 191.77 90.1701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,8 +1400,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 179.07 89.5985 0)
+		(property "Value" "CR1220MFR_FH"
+			(at 191.77 87.6301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,8 +1409,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom-Library-FRES:1056TR"
-			(at 175.26 88.9 0)
+		(property "Footprint" "CR1220:CR1220-SMD"
+			(at 191.77 -4.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.renatabatteries.us/sites/default/files/2018-01/CR1220MFR-FH.pdf"
+			(at 191.77 -104.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Coin Cell Battery 3V2-PINHORZ40mAh"
+			(at 175.26 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,34 +1438,66 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 175.26 88.9 0)
+		(property "Height" "2.95"
+			(at 191.77 -304.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 175.26 88.9 0)
+		(property "Mouser Part Number" "614-CR1220MFR-FH"
+			(at 191.77 -404.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0c595995-90c7-4c7a-b450-f25566e01ecb")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Renata/CR1220MFR-FH?qs=PuikTf%252BlMsxvBg0JpoIdQQ%3D%3D"
+			(at 191.77 -504.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "RENATA"
+			(at 191.77 -604.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CR1220MFR FH"
+			(at 191.77 -704.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "cab979fd-9670-4530-8969-a97040976afa")
+			(uuid "8e3626e1-45b3-4606-a016-26f1c11593cd")
+		)
+		(pin "1"
+			(uuid "02acf6ef-4bfe-4ea0-96ab-2547d67566a1")
 		)
 		(instances
 			(project ""
 				(path "/04b6c12f-837a-46bf-a4f1-2bcc73eb17c7/71c25820-6749-41c5-9e93-e0d91d28a35c"
-					(reference "BAT1")
+					(reference "BT1")
 					(unit 1)
 				)
 			)

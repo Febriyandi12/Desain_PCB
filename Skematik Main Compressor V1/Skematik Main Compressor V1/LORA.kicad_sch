@@ -703,7 +703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RA-02_LORA:MODULE_RA-02_LORA"
+		(property "Footprint" "RF_Module:Ai-Thinker-Ra-01-LoRa"
 			(at 135.89 97.79 0)
 			(effects
 				(font
