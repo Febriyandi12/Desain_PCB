@@ -8886,6 +8886,16 @@
 			"EZFRsAhBREREREREREbBIgQRERERERERGQHw/53DBPG0uimwAAAAAElFTkSuQmCC"
 		)
 	)
+	(text "RELAY MOTOR 1"
+		(exclude_from_sim no)
+		(at 214.63 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03e80b98-9fe1-4165-803a-d8ef50fd488e")
+	)
 	(text "ADDRESS 1001001 (0X49)\n"
 		(exclude_from_sim no)
 		(at 167.64 54.61 0)
@@ -8895,6 +8905,26 @@
 			)
 		)
 		(uuid "0fdddcda-f991-4036-9fad-37ba8825a84f")
+	)
+	(text "LORA"
+		(exclude_from_sim no)
+		(at 260.985 109.855 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1775a49e-e253-4bf0-a6d7-36531dfa0743")
+	)
+	(text "BUZER DC"
+		(exclude_from_sim no)
+		(at 78.105 65.405 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20ca84f2-beb6-4b41-855d-bdb0fc52ff0c")
 	)
 	(text "Address 0x68"
 		(exclude_from_sim no)
@@ -8906,6 +8936,26 @@
 		)
 		(uuid "23756136-da64-4c47-8718-de6a828a18c7")
 	)
+	(text "SENSOR PREASURE & CO "
+		(exclude_from_sim no)
+		(at 167.005 18.415 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24d2a2ec-8853-4e2e-8b6c-2849bc5e8dae")
+	)
+	(text "F-ram\n"
+		(exclude_from_sim no)
+		(at 77.47 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "259f5609-1421-4f34-9b36-485cb4dacf0b")
+	)
 	(text "Address 0x45 (Solder)\n\n"
 		(exclude_from_sim no)
 		(at 259.715 52.705 0)
@@ -8916,6 +8966,86 @@
 		)
 		(uuid "27e8d3d5-1f28-4f29-9f72-8638595c19b2")
 	)
+	(text "RTC"
+		(exclude_from_sim no)
+		(at 215.265 20.955 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29fe7793-d74a-4ec8-9d13-64dbad09d440")
+	)
+	(text "LCD"
+		(exclude_from_sim no)
+		(at 124.46 20.955 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c1cbb12-4797-408d-a2ad-00d65dd7d71d")
+	)
+	(text "AUTO DRAIN"
+		(exclude_from_sim no)
+		(at 169.545 65.405 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2ea67130-7da0-4596-a241-6fd4fe2701e6")
+	)
+	(text "RELAY BUZER AC"
+		(exclude_from_sim no)
+		(at 123.19 65.405 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34cccdf9-479b-4ee5-a192-271c771ba286")
+	)
+	(text "AC TRIP"
+		(exclude_from_sim no)
+		(at 31.115 65.405 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f9f31ed-b52f-4773-a542-9b18468df170")
+	)
+	(text "SDCARD"
+		(exclude_from_sim no)
+		(at 214.63 109.855 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79a625af-f4fc-469b-bdb5-0da471546485")
+	)
+	(text "Regulator DC"
+		(exclude_from_sim no)
+		(at 33.02 19.685 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8bd51497-4ac1-4696-9263-b5c1525a61f9")
+	)
+	(text "SENSOR HUMADITY\n"
+		(exclude_from_sim no)
+		(at 259.08 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a007589c-7d94-4eae-9824-213e68003e88")
+	)
 	(text "I2C Address 0x50 (A0-A2 terhubung ground)"
 		(exclude_from_sim no)
 		(at 79.375 55.245 0)
@@ -8925,6 +9055,16 @@
 			)
 		)
 		(uuid "adee0883-b98d-456a-9a37-99c7d1e5bbb8")
+	)
+	(text "RELAY MOTOR 2"
+		(exclude_from_sim no)
+		(at 258.445 64.135 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "caa60903-20f8-46a5-8f95-76aab7cf65eb")
 	)
 	(label "D33"
 		(at 74.295 175.26 0)
