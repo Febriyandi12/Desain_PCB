@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "2N5551TA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-01-12-14:03:44)
+    (mountForm default
+        (footprintRef "2N5551TA")
+        (spec "System")
+    )
+)

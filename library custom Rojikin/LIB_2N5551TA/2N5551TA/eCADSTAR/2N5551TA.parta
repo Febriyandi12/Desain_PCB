@@ -1,0 +1,69 @@
+(Japanese_coding: sjis)
+(function "ECS_972576"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-11-02-11:30:22)
+    (utime 2024-06-26-10:21:53)
+    (interface
+        (port "1" (symbPinId 3) (portType INOUT))
+        (port "2" (symbPinId 1) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "2N5551TA")
+)
+
+
+(pinAssign "ECS_972576"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-11-02-11:30:22)
+    (utime 2024-06-26-10:21:53)
+    (interface
+        (port "1" (symbPinId 3) (portName "C") (portType INOUT))
+        (port "2" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "E") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_972576")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "2N5551TA")
+)
+
+
+(part "2N5551TA"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-11-02-11:30:22)
+    (utime 2024-06-26-10:21:53)
+    (packageRef "2N5551TA")
+    (pinAssignRef "ECS_972576")
+    (interface
+        (port "1" (symbPinId 3) (portName "C") (portType INOUT))
+        (port "2" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "E") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "Bipolar Transistors - BJT NPN Transistor General Purpose")
+    (property "Mouser_Part_Number" "512-2N5551TA")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/2N5551TA?qs=Zd4VdJDrgZ1B7iQzla%252BY7w%3D%3D")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "2N5551TA")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/2/2N5551TA.pdf")
+)
+
+

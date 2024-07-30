@@ -1,0 +1,16 @@
+.2N5551TA :1 ;Bipolar Transistors - BJT NPN Transistor General Purpose
+"2N5551TA"
+*STM Q
+*NGS
+*PLB 1="C" 2="B" 3="E"
+*MXP 3
+*DFN 2N5551TA
+~!Mouser Part Number (512-2N5551TA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/2N5551TA?qs=Zd4VdJDrgZ1B7iQzla%252BY7w%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (2N5551TA)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/2N5551TA.pdf)
+~!Height (-)
+~!3D_Model (2N5551TA)
+"2N5551TA"
+1.1!U 2.1!U 3.1!U 

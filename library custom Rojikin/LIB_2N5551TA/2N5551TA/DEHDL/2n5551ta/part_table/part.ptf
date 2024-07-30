@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2N5551TA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "onsemi", "2N5551TA" (!) = "", "2N5551TA", "Other", "512-2N5551TA", "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/2N5551TA?qs=Zd4VdJDrgZ1B7iQzla%252BY7w%3D%3D", "Bipolar Transistors - BJT NPN Transistor General Purpose", "https://componentsearchengine.com/Datasheets/2/2N5551TA.pdf"
+END_PART
+
+END.

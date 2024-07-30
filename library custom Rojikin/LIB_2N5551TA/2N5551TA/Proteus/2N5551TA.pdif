@@ -1,0 +1,172 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "2N5551TA"
+   (description "Bipolar Transistors - BJT NPN Transistor General Purpose")
+   (family "TRX")
+   (package "2N5551TA")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/2/2N5551TA.pdf")
+   (attribute "Mouser Part Number" "512-2N5551TA")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/2N5551TA?qs=Zd4VdJDrgZ1B7iQzla%252BY7w%3D%3D")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "2N5551TA")
+   (gate
+    (symbol "2N5551TA")
+    (pin "B" 2 PS)
+    (pin "E" 3 PS)
+    (pin "C" 1 PS)
+   )
+  )
+  (symbol "2N5551TA"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 150) (pt 300 -150))
+   )
+   (graphic
+    (stroke 20)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 50) (pt 400 150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -50) (pt 400 -150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -150) (pt 400 -200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 150) (pt 400 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 330 -100) (pt 350 -80) (pt 370 -120) (pt 330 -100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 -300) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 300) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "2N5551TA"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0.22 -1.225)
+      (pt 4.98 -1.225)
+      (pt 4.98 2.395)
+      (pt 0.22 2.395)
+      (pt 0.22 -1.225))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0.22 2.395)
+      (pt 4.98 2.395)
+      (pt 4.98 2.395)
+      (pt 0.22 2.395)
+      (pt 0.22 2.395))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0.22 -1.225)
+      (pt 4.98 -1.225)
+      (pt 4.98 -1.225)
+      (pt 0.22 -1.225)
+      (pt 0.22 -1.225))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.8 3.395)
+      (pt 6.866 3.395)
+      (pt 6.866 -2.225)
+      (pt -3.8 -2.225)
+      (pt -3.8 3.395))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0.22 1.25)
+      (pt 0.22 1.25)
+      (pt 0.22 2.395)
+      (pt 0.22 2.395)
+      (pt 0.22 1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 4.98 2.395)
+      (pt 4.98 2.395)
+      (pt 4.98 1.25)
+      (pt 4.98 1.25)
+      (pt 4.98 2.395))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.8 0)
+      (arc (pt -2.800 0.000) (pt -2.800 0.050) (pt -2.700 -0.050) (start 180.0) (sweep 180.0))
+      (pt -2.7 0)
+      (arc (pt -2.700 0.000) (pt -2.800 0.050) (pt -2.700 -0.050) (start 180.0) (sweep -.0))
+      (pt -2.8 0)
+      (arc (pt -2.800 0.000) (pt -2.800 0.050) (pt -2.700 -0.050) (start 180.0) (sweep 180.0))
+      (pt -2.7 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.600 0.000) (padstack 0))
+   (leg 3 (pt 5.200 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.82)
+    (plated true)
+    (pad (layer TCOP) (round 1.250))
+    (pad (layer INNER) (round 1.250))
+    (pad (layer BCOP) (round 1.250))
+   )
+   (model "2N5551TA.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MSD-4-A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-01-03-14:04:58)
+    (mountForm default
+        (footprintRef "MSD4A")
+        (spec "System")
+    )
+)

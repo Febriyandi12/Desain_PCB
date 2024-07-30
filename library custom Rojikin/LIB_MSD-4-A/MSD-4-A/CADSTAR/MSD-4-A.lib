@@ -1,0 +1,17 @@
+.MSD-4-A :1 ;Memory Card Connectors 9 Positions, Push In, Auto Eject Out, SMT, 1.8 mm Height Above Board,
+MSD4A
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=G1 10=G2 11=G3 12=G4 13=CD1
+*PLB 1="DAT2" 2="CD/DAT3" 3="CMD" 4="VDD" 5="CLK" 6="VSS" 7="DAT0" 8="DAT1" 9="GND_1" 10="GND_2" 11="GND_3" 12="GND_4" 13="CD1"
+*MXP 15
+*DFN MSD-4-A
+~!Mouser Part Number (179-MSD-4-A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CUI-Devices/MSD-4-A?qs=Z%252BL2brAPG1Jll%252BQTi%252Btupg%3D%3D)
+~!Manufacturer_Name (CUI Devices)
+~!Manufacturer_Part_Number (MSD-4-A)
+~!Link Datasheet (https://www.cuidevices.com/product/resource/pdf/msd-4-a.pdf)
+~!Height (2mm)
+~!3D_Model (MSD-4-A)
+MSD-4-A
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 

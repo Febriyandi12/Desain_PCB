@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MSD4A"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MSD4A")
+        (spec "default")
+    )
+)

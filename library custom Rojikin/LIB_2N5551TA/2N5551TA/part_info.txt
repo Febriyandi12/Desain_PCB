@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=2N5551TA
+PartCategory=Transistor BJT NPN
+PackageCategory=Other
+PinCount=3
+Version=2.5
+Released=2020-11-02 11:30:22
+Downloaded=2024-07-29 02:58:16
+3D=Y

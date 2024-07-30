@@ -1,0 +1,9 @@
+Manufacturer=CUI Devices
+PartNumber=MSD-4-A
+PartCategory=Connector
+PackageCategory=Other
+PinCount=13
+Version=2.9
+Released=2024-01-03 14:04:58
+Downloaded=2024-07-29 03:16:52
+3D=Y
