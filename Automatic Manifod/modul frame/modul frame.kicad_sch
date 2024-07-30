@@ -1,0 +1,893 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "aef78bcc-9f23-45a9-ac89-e5b89e2e8144")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Memory_NVRAM:FM24C64B"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FM24C64B"
+				(at 6.35 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.cypress.com/file/41651/download"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "64Kb serial FRAM nonvolatile Memory, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "FRAM I2C Serial 5V FRAM NVRAM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FM24C64B_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "FM24C64B_1_1"
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "WP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 53.34 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2430b24f-e9d5-4998-8201-90482ba8685e")
+	)
+	(junction
+		(at 17.78 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61309cfe-b324-4944-9095-c2bed409ef9a")
+	)
+	(junction
+		(at 45.72 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e20be8cd-4b42-45f0-858b-a51b9332ab5c")
+	)
+	(junction
+		(at 17.78 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6120609-d9c4-4d2c-b57a-460fbaeed51c")
+	)
+	(no_connect
+		(at 41.91 43.18)
+		(uuid "af89a394-fe93-4be9-a0bf-24ebafa395a6")
+	)
+	(wire
+		(pts
+			(xy 45.72 20.32) (xy 45.72 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d884da-754a-494c-b8a6-3288ae8417b6")
+	)
+	(wire
+		(pts
+			(xy 17.78 40.64) (xy 21.59 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b874e5-d365-4f6c-814b-d34ea784edeb")
+	)
+	(wire
+		(pts
+			(xy 17.78 43.18) (xy 21.59 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3066c7dc-e293-496e-9821-914190ddc49a")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 53.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c3a47e-dd71-4236-b61d-66688c49f3b1")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 45.72 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e93d7b-bd26-4e0b-ba20-e4fe05da7289")
+	)
+	(wire
+		(pts
+			(xy 31.75 20.32) (xy 31.75 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7a232a-aabd-438b-a2a3-292a61490475")
+	)
+	(wire
+		(pts
+			(xy 53.34 30.48) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa412f4-9315-4d0e-96b8-77b5a63724ef")
+	)
+	(wire
+		(pts
+			(xy 17.78 43.18) (xy 17.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc83671-c70a-4764-aa3c-4ad49db7a461")
+	)
+	(wire
+		(pts
+			(xy 31.75 48.26) (xy 31.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82bf5f40-d557-4b06-b0a0-c906c222627a")
+	)
+	(wire
+		(pts
+			(xy 17.78 38.1) (xy 17.78 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdbe3f4-e5a5-4646-aced-848b021e6c54")
+	)
+	(wire
+		(pts
+			(xy 41.91 38.1) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8741fc8-95ed-4795-8451-daafeca5698c")
+	)
+	(wire
+		(pts
+			(xy 21.59 38.1) (xy 17.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4bb24f-dbca-49ad-9f67-e247bdf765e5")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 62.23 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baea9bb0-774a-404a-97cb-7dad66245338")
+	)
+	(wire
+		(pts
+			(xy 41.91 40.64) (xy 53.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a5fdab-c879-4234-98ed-8f199dd64df2")
+	)
+	(wire
+		(pts
+			(xy 53.34 21.59) (xy 53.34 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98a5d60-3c97-4337-a0b7-593a5ef3dd39")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 62.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf794a3-a897-49fb-982f-b53f87e55cdd")
+	)
+	(wire
+		(pts
+			(xy 17.78 40.64) (xy 17.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed092e2-2663-4fe9-b47f-4ad88df16217")
+	)
+	(text "FRAM (Ferroelectric RAM)"
+		(exclude_from_sim no)
+		(at 27.94 14.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a55ba648-bee3-44e4-8a97-d48cbd9eb1df")
+	)
+	(text "I2C Address 0x50 (A0-A2 terhubung ground)"
+		(exclude_from_sim no)
+		(at 37.084 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b02d3a78-b05e-44fd-ae24-cd16f4a47368")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 62.23 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09c5c31c-e9d0-4363-b757-c3fbadf14f59")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 53.34 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50e0d6cf-dc1a-4152-adfc-320fb134297c")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 31.75 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66403bd6-ac98-47d7-867f-9c35f7c44fd9")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 31.75 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96f10c4c-e27a-45c2-96ee-e97e0015dc84")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 62.23 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab68c4cf-475f-4472-909c-24c26449fd39")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 45.72 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6d2d4cb-9939-4c89-a209-5f7ae7b9ef4d")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 17.78 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1f16a13-26c4-4f84-8f6e-a2b50adc3b26")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24c75112-ee46-430b-8433-19131815554a")
+		(property "Reference" "R3"
+			(at 48.26 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k8"
+			(at 48.26 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 43.942 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d790cdda-b18a-45a9-9efa-f5fd19b637be")
+		)
+		(pin "2"
+			(uuid "e99ccfd3-ef14-4532-bc81-62adb1ea4178")
+		)
+		(instances
+			(project "modul frame"
+				(path "/aef78bcc-9f23-45a9-ac89-e5b89e2e8144"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_NVRAM:FM24C64B")
+		(at 31.75 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f60a200-539e-4cca-ad24-4c8b19237da2")
+		(property "Reference" "U2"
+			(at 33.9441 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FM24C64B"
+			(at 33.9441 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 31.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.cypress.com/file/41651/download"
+			(at 31.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "64Kb serial FRAM nonvolatile Memory, SOIC-8"
+			(at 31.75 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7466e33-3be5-4ec3-a4cc-8b24b1f1f874")
+		)
+		(pin "5"
+			(uuid "49d88e3f-79cd-4983-8c4f-6aac0350e631")
+		)
+		(pin "7"
+			(uuid "a4823f33-b127-4f33-bcb2-a9c73d58d14e")
+		)
+		(pin "8"
+			(uuid "7b5d2456-64a6-4a48-940e-3d9b6ab50efb")
+		)
+		(pin "1"
+			(uuid "643638ea-0be9-4c22-8a75-df435add37ac")
+		)
+		(pin "3"
+			(uuid "49e31bf4-08a1-4cde-9ccf-979be51e0e92")
+		)
+		(pin "6"
+			(uuid "2032d1eb-78e6-4ca8-b779-661666a7aa33")
+		)
+		(pin "4"
+			(uuid "a6db0ee2-e13d-4085-a3e9-4bbc892e710f")
+		)
+		(instances
+			(project "modul frame"
+				(path "/aef78bcc-9f23-45a9-ac89-e5b89e2e8144"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 53.34 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7619712-996b-4968-a1d5-7968b4c8fd13")
+		(property "Reference" "R4"
+			(at 55.88 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k8"
+			(at 55.88 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 51.562 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dacabc40-2249-4c15-a00d-13cee4bf416c")
+		)
+		(pin "2"
+			(uuid "5b468033-4ed3-40e7-965e-f752eee1cca8")
+		)
+		(instances
+			(project "modul frame"
+				(path "/aef78bcc-9f23-45a9-ac89-e5b89e2e8144"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

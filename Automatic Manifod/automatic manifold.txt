@@ -1,0 +1,20 @@
+Automatic Manifold
+-modul
+  -lora   : ra-02
+  -sd card: MSD-4-A 
+  -f frame: FM 24c64
+
+-Input
+  -High pressure 2    : PSAN-1CPA (12V)
+  -Low pressure       : PSAN-1CPA (12V)
+  -suhu               : DHT 11    (
+  -1 analog input flow:
+
+-Output
+  -Buzzer internal:
+	  external:12 VDC
+  -LCD 
+  -Solenoid kanan/kiri(mousfet dengan arus tinggi): solenoid 24V
+
+-Regulator
+  -12, 5, 3.3 VDC

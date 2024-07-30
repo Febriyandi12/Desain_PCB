@@ -1,0 +1,10 @@
+alamat Pin Kaki
+ -D4  : Buzzer Internal
+ -D12 : Suhu DHT11
+ -D13 : Buzzer Eksternal
+ -D14 : Analog Input
+ -D25 : Solenoid kanan
+ -D26 : Solenoid Kiri
+ -D32 : Low High Pressure
+ -D34 : Right High Pressure
+ -D35 : left High Pressure
